@@ -13,7 +13,7 @@ const Loading = () => {
     window.scrollTo(0, 0);
     setInterval(() => {
       history.push({
-        pathname: '/matching/result',
+        pathname: '/blackpink/matching/result',
         state: {
           matchingResultKo: location.state.matchingResultKo,
           matchingResultEn: location.state.matchingResultEn,

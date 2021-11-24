@@ -11,16 +11,16 @@ const MobileOthers = () => {
             <h2>THE OTHER MEMBERS</h2>
           </div>
           <div className="m-others__others">
-            <a href="/lookbook/jennie">
+            <a href="/blackpink/lookbook/jennie">
               <img src="/images/matching/jennie_card.jpg" alt="jennie" />
             </a>
-            <a href="/lookbook/jisoo">
+            <a href="/blackpink/lookbook/jisoo">
               <img src="/images/matching/jisoo_card.jpg" alt="jisoo" />
             </a>
-            <a href="/lookbook/lisa">
+            <a href="/blackpink/lookbook/lisa">
               <img src="/images/matching/lisa_card.jpg" alt="lisa" />
             </a>
-            <a href="/lookbook/rose">
+            <a href="/blackpink/lookbook/rose">
               <img src="/images/matching/rose_card.jpg" alt="rose" />
             </a>
           </div>

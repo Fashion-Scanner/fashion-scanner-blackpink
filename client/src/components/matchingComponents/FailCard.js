@@ -16,7 +16,7 @@ const FailCard = () => {
           <p>{t('failCard_text2')}</p>
         </div>
         <div className="failCard__btn">
-          <a href="/matching">
+          <a href="/blackpink/matching">
             <label>{t('failCard_btn')}</label>
           </a>
         </div>

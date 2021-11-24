@@ -26,7 +26,7 @@ const MemberMatching = () => {
             {!isMobile && (
               <>
                 <div className="contents__btn">
-                  <a href="/matching">{t('contents_btn')}</a>
+                  <a href="/blackpink/matching">{t('contents_btn')}</a>
                 </div>
               </>
             )}
@@ -37,7 +37,7 @@ const MemberMatching = () => {
           {isMobile && (
             <>
               <div className="contents__btn">
-                <a href="/matching">{t('contents_btn')}</a>
+                <a href="/blackpink/matching">{t('contents_btn')}</a>
               </div>
             </>
           )}

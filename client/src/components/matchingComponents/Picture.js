@@ -49,12 +49,13 @@ const Picture = () => {
         },
       };
 
-      formData.append('userImage', requestImg);
+      formData.append('user_image', requestImg);
 
       await axios
-        .post('/api/user/matching', formData, config)
+        .post('/api/v1/member/matching/', formData, config)
         .then((response) => {
-          if (response.status === 200) {
+          console.log(response.data)
+          // if (response.status === 200) {
             swal({
               title: '사진 전송 완료',
               text: '',
@@ -63,13 +64,13 @@ const Picture = () => {
             });
 
             history.push({
-              pathname: '/matching/loading',
+              pathname: '/blackpink/matching/loading',
               state: {
                 matchingResultKo: response.data.matchingResultKo,
                 matchingResultEn: response.data.matchingResultEn,
               },
             });
-          }
+          // }
         })
         .catch(() => {
           swal({
@@ -102,7 +103,7 @@ const Picture = () => {
       formData.append('userImage', requestImg);
 
       await axios
-        .post('/api/user/matching', formData, config)
+        .post('/api/v1/member/matching/', formData, config)
         .then((response) => {
           if (response.status === 200) {
             swal({
@@ -113,7 +114,7 @@ const Picture = () => {
             });
 
             history.push({
-              pathname: '/matching/loading',
+              pathname: '/blackpink/matching/loading',
               state: {
                 matchingResultKo: response.data.matchingResultKo,
                 matchingResultEn: response.data.matchingResultEn,

@@ -18,7 +18,7 @@ const NotFound = () => {
             <h2>Oops!</h2>
             <h2>{t('something_went_wrong')}</h2>
             <span>{t('try_again')}</span>
-            <a href="/">{t('go_back_to_main')}</a>
+            <a href="/blackpink/">{t('go_back_to_main')}</a>
           </div>
         </div>
       </div>
