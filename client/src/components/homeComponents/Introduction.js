@@ -80,7 +80,7 @@ const Introduction = () => {
               )}
             </li>
           </ul>
-          <a className={`material-icons ${isVisible ? 'scroll' : ''}`} href="/blackpink#section__magazine">
+          <a className={`material-icons ${isVisible ? 'scroll' : ''}`} href="#section__magazine">
             expand_more
           </a>
         </div>

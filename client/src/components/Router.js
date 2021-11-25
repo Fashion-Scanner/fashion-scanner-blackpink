@@ -27,23 +27,23 @@ const AppRouter = () => {
 
   return (
     <LangProvider>
-      <Router>
+      <Router basename="/blackpink">
         <Switch>
-          <Route exact path="/blackpink/" component={Home} />
-          <Route exact path="/blackpink/lookbook/jennie" component={LookbookJennie} />
-          <Route exact path="/blackpink/lookbook/rose" component={LookbookRose} />
-          <Route exact path="/blackpink/lookbook/jisoo" component={LookbookJisoo} />
-          <Route exact path="/blackpink/lookbook/lisa" component={LookbookLisa} />
-          <Route exact path="/blackpink/matching" component={Matching} />
-          <Route exact path="/blackpink/matching/loading" component={Loading} />
-          <Route exact path="/blackpink/matching/failure" component={Failure} />
-          <Route exact path="/blackpink/matching/result" component={Result} />
-          <Route exact path="/blackpink/matching/sharing/jisoo" component={SharingJisoo} />
-          <Route exact path="/blackpink/matching/sharing/jennie" component={SharingJennie} />
-          <Route exact path="/blackpink/matching/sharing/lisa" component={SharingLisa} />
-          <Route exact path="/blackpink/matching/sharing/rose" component={SharingRose} />
-          <Route exact path="/blackpink/devteam" component={DevTeam} />
-          <Route exact path="/blackpink/faq" component={FAQ} />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/lookbook/jennie" component={LookbookJennie} />
+          <Route exact path="/lookbook/rose" component={LookbookRose} />
+          <Route exact path="/lookbook/jisoo" component={LookbookJisoo} />
+          <Route exact path="/lookbook/lisa" component={LookbookLisa} />
+          <Route exact path="/matching" component={Matching} />
+          <Route exact path="/matching/loading" component={Loading} />
+          <Route exact path="/matching/failure" component={Failure} />
+          <Route exact path="/matching/result" component={Result} />
+          <Route exact path="/matching/sharing/jisoo" component={SharingJisoo} />
+          <Route exact path="/matching/sharing/jennie" component={SharingJennie} />
+          <Route exact path="/matching/sharing/lisa" component={SharingLisa} />
+          <Route exact path="/matching/sharing/rose" component={SharingRose} />
+          <Route exact path="/devteam" component={DevTeam} />
+          <Route exact path="/faq" component={FAQ} />
           <Route component={NotFound} />
         </Switch>
       </Router>

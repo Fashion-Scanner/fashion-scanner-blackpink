@@ -29,43 +29,43 @@ const Lookbook = () => {
           <div className="lookbook__members">
             {!isMobile ? (
               <>
-                <a href="/blackpink/lookbook/jisoo" onClick={ReactGA.event({category: 'Home Jisoo Lookbook', action: 'Click'})}>
+                <a href="/lookbook/jisoo" onClick={ReactGA.event({category: 'Home Jisoo Lookbook', action: 'Click'})}>
                   <img className="member" src="/images/home/jisoo_btn_photo.jpg" alt="JISOO" />
                 </a>
-                <a href="/blackpink/lookbook/jennie" onClick={ReactGA.event({category: 'Home Jennie Lookbook', action: 'Click'})}>
+                <a href="/lookbook/jennie" onClick={ReactGA.event({category: 'Home Jennie Lookbook', action: 'Click'})}>
                   <img className="member" src="/images/home/jennie_btn_photo.jpg" alt="JENNIE" />
                 </a>
-                <a href="/blackpink/lookbook/lisa" onClick={ReactGA.event({category: 'Home Lisa Lookbook', action: 'Click'})}>
+                <a href="/lookbook/lisa" onClick={ReactGA.event({category: 'Home Lisa Lookbook', action: 'Click'})}>
                   <img className="member" src="/images/home/lisa_btn_photo.jpg" alt="LISA" />
                 </a>
-                <a href="/blackpink/lookbook/rose" onClick={ReactGA.event({category: 'Home Rose Lookbook', action: 'Click'})}>
+                <a href="/lookbook/rose" onClick={ReactGA.event({category: 'Home Rose Lookbook', action: 'Click'})}>
                   <img className="member" src="/images/home/rose_btn_photo.jpg" alt="ROSE" />
                 </a>
               </>
             ) : (
               <div className="members__inner">
-                <a href="/blackpink/lookbook/jisoo">
+                <a href="/lookbook/jisoo">
                   <img
                     className="member"
                     src="/images/lookbooks/lookbook_members_jisoo.png"
                     alt="JISOO"
                   />
                 </a>
-                <a href="/blackpink/lookbook/jennie">
+                <a href="/lookbook/jennie">
                   <img
                     className="member"
                     src="/images/lookbooks/lookbook_members_jennie.png"
                     alt="JENNIE"
                   />
                 </a>
-                <a href="/blackpink/lookbook/lisa">
+                <a href="/lookbook/lisa">
                   <img
                     className="member"
                     src="/images/lookbooks/lookbook_members_lisa.png"
                     alt="LISA"
                   />
                 </a>
-                <a href="/blackpink/lookbook/rose">
+                <a href="/lookbook/rose">
                   <img
                     className="member"
                     src="/images/lookbooks/lookbook_members_rose.png"

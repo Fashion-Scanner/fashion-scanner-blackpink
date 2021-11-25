@@ -13,14 +13,14 @@ const Navigation = () => {
   const { t } = useTranslation();
 
   const onMoveMain = () => {
-    history.push('/blackpink');
+    history.push('/');
   };
 
   return (
     <>
       <header>
         <nav className="inner">
-          <a href="/blackpink/" className="logo">
+          <a href="/" className="logo">
             <img src="/images/common/fs_s3_logo.png" alt="FASHION SCANNER" />
           </a>
           <span
@@ -34,22 +34,22 @@ const Navigation = () => {
           <div className={`link-group ${menu === true ? 'active' : ''}`}>
             <ul className="link">
               <li>
-                <a href="/blackpink#section__introduction" onClick={onMoveMain}>
+                <a href="#section__introduction" onClick={onMoveMain}>
                   {t('nav1')}
                 </a>
               </li>
               <li>
-                <a href="/blackpink#section__lookbook" onClick={onMoveMain}>
+                <a href="#section__lookbook" onClick={onMoveMain}>
                   {t('nav2')}
                 </a>
               </li>
               <li>
-                <a href="/blackpink#section__memberMatching" onClick={onMoveMain}>
+                <a href="#section__memberMatching" onClick={onMoveMain}>
                   {t('nav3')}
                 </a>
               </li>
               <li>
-                <a href="/blackpink#section__request" onClick={onMoveMain}>
+                <a href="#section__request" onClick={onMoveMain}>
                   {t('nav4')}
                 </a>
               </li>

@@ -14,7 +14,7 @@ const NavigationMatching = () => {
     <>
       <header>
         <nav className="inner">
-          <a href="/blackpink/" className="logo">
+          <a href="/" className="logo">
             <img src="/images/common/fs_s3_logo.png" alt="FASHION SCANNER" />
           </a>
           <span

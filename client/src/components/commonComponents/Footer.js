@@ -44,10 +44,10 @@ const Footer = () => {
                 <li className="team__dev">
                   <ul>
                     <li>
-                      <a href="/blackpink/devTeam">{t('culture')}</a>
+                      <a href="/devTeam">{t('culture')}</a>
                     </li>
                     <li>
-                      <a href="/blackpink/faq">{t('faq')}</a>
+                      <a href="/faq">{t('faq')}</a>
                     </li>
                   </ul>
                 </li>
@@ -58,7 +58,7 @@ const Footer = () => {
                     </li>
                     <li>
                       <FontAwesomeIcon icon={faFacebook} className="sns__icon" />
-                      <a href="/blackpinkhttps://www.instagram.com/fashion__scanner">
+                      <a href="https://www.instagram.com/fashion__scanner">
                         <FontAwesomeIcon icon={faInstagram} className="sns__icon" />
                       </a>
                       <FontAwesomeIcon icon={faTwitter} className="sns__icon" />

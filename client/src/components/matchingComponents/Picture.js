@@ -64,7 +64,7 @@ const Picture = () => {
             });
 
             history.push({
-              pathname: '/blackpink/matching/loading',
+              pathname: '/matching/loading',
               state: {
                 matchingResultKo: response.data.matchingResultKo,
                 matchingResultEn: response.data.matchingResultEn,
@@ -114,7 +114,7 @@ const Picture = () => {
             });
 
             history.push({
-              pathname: '/blackpink/matching/loading',
+              pathname: '/matching/loading',
               state: {
                 matchingResultKo: response.data.matchingResultKo,
                 matchingResultEn: response.data.matchingResultEn,
